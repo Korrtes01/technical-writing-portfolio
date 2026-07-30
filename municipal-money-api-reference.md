@@ -32,8 +32,8 @@ Cube names include: `incexp` (Income and Expenditure), `bsheet` (Balance Sheet),
 
 | Parameter | Format | Description |
 |---|---|---|
-| `cut` | `dimension.attribute:value` pairs, joined with `\|` | Filters results. Multiple values for the same dimension are separated by `;` inside quotes. |
-| `drilldown` | `dimension.attribute` list, joined with `\|` | Breaks the aggregation down by these fields, instead of collapsing them into one total. |
+| `cut` | `dimension.attribute:value` pairs, pipe-separated | Filters results. Multiple values for the same dimension are separated by `;` inside quotes. |
+| `drilldown` | `dimension.attribute` list, pipe-separated | Breaks the aggregation down by these fields, instead of collapsing them into one total. |
 | `aggregates` | e.g. `amount.sum` | The calculation to perform on the measure. |
 | `page` | integer | Page number for paginated results. |
 | `pagesize` | integer | Results per page. |
